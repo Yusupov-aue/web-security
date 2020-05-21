@@ -35,7 +35,7 @@
 
 				<div class="foget">
 		         	<i class="fas fa-brain"></i>
-		          <a href="confirm.html">Забыли пароль?</a>
+		          <a href="http://127.0.0.1:8000/confirm">Забыли пароль?</a>
 		        </div>
       </div>
 

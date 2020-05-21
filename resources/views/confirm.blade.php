@@ -23,7 +23,7 @@
 
         <div class="retu">
           <i class="fas fa-house-damage"></i>
-          <a href="index.html">Вернутся</a>
+          <a href="http://127.0.0.1:8000/index">Вернутся</a>
         </div>
 
       </div>

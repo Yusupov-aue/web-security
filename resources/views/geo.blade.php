@@ -11,23 +11,30 @@
 <body>
 	<header>
 
-		<div class="logo">
-			<a class="reg" href="reg.html">Регистрация</a>
-			<a class="login" href="login.html">Вход</a>
-			<a href="index.html"><img class="graficlogo" src="img/logo.png" alt="logo"></a>
-		</div>
 
-			<nav>
-				<div class="topnav" id="myTopnav">
-					<a href="index.html">Главная</a>
-					<a href="news.html">Новости</a>
-					<a href="articles.html">Статьи</a>
-					<a href="about.html">Контакты</a>
-					<a href="question.html">О создателе</a>
-					<a href="geo.html">Геолакация</a>
-					<a id="menu" href="#" class="icon">&#9776;</a>
+
+				<div class="logo">
+					<a class="reg" href="reg.html">Регистрация</a>
+					<a class="login" href="login.html">Вход</a>
+					<a href="index.html"><img class="graficlogo" src="img/logo.png" alt="logo"></a>
+
 				</div>
-			</nav>
+
+					<nav>
+
+
+						<div class="topnav" id="myTopnav">
+							<a href="http://127.0.0.1:8000/index">Главная</a>
+							<a href="http://127.0.0.1:8000/news">Новости</a>
+							<a href="http://127.0.0.1:8000/articles">Статьи</a>
+							<a href="http://127.0.0.1:8000/about">Контакты</a>
+							<a href="http://127.0.0.1:8000/question">О создателе</a>
+							<a href="http://127.0.0.1:8000/geo">Геолакация</a>
+							<a id="menu" href="#" class="icon">&#9776;</a>
+						</div>
+					</nav>
+
+
 
 
 	</header>
@@ -46,27 +53,27 @@
 
 
 
-	<footer>
-		<nav>
-			<a href="index.html">Главная</a>
-					<a href="news.html">Новости</a>
-					<a href="articles.html">Статьи</a>
-					<a href="about.html">О создателе</a>
-					<a href="question.html">Поддержка</a>
-					<a href="geo.html">Геолакация</a>
-		</nav>
+<footer>
+	<nav>
+		<a href="http://127.0.0.1:8000/index">Главная</a>
+				<a href="http://127.0.0.1:8000/news">Новости</a>
+				<a href="http://127.0.0.1:8000/articles">Статьи</a>
+				<a href="http://127.0.0.1:8000/about">О создателе</a>
+				<a href="http://127.0.0.1:8000/question">Поддержка</a>
+				<a href="http://127.0.0.1:8000/geo">Геолакация</a>
+	</nav>
 
-		<div class="logo">
-			<a href="index.html"><img class="graficlogo" src="img/logo.png" alt="logo"></a>
-		</div>
+	<div class="logo">
+		<a href="http://127.0.0.1:8000/index"><img class="graficlogo" src="img/logo.png" alt="logo"></a>
+	</div>
 
-		<div class="social">
-			<a href="https://www.instagram.com/asad_wilb/"><img src="img/social icons/instagram.png" alt="instagram"></a>
-			<a href="https://vk.com/haipygraphicd"><img src="img/social icons/vk.png" alt="vk"></a>
-			<a href="https://t.me/dreamnmida"><img src="img/social icons/telegram.png" alt="telegram"></a>
-		</div>
-		<p>wilburn 2020</p>
-	</footer>
+	<div class="social">
+		<a href="https://www.instagram.com/asad_wilb/"><img src="img/social icons/instagram.png" alt="instagram"></a>
+		<a href="https://vk.com/haipygraphicd"><img src="img/social icons/vk.png" alt="vk"></a>
+		<a href="https://t.me/dreamnmida"><img src="img/social icons/telegram.png" alt="telegram"></a>
+	</div>
+	<p>wilburn 2020</p>
+</footer>
 
 <script src="js/script.js"></script>
 </body>
