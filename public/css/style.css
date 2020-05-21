@@ -1,0 +1,466 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	text-decoration: none;
+	list-style: none;
+}
+
+body{
+	font-family: 'Source Code Pro', sans-serif;
+}
+
+.logo{
+	background: #000;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.graficlogo{
+	padding: 5px;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+nav{
+	margin: auto;
+	width: 800px;
+
+}
+
+.topnav{
+	background-color: #fff;
+	font-size: 14px;
+	margin-top: 40px;
+	margin-bottom: 20px; 
+}
+
+.topnav a{
+	color: #000;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 15px; 
+
+}
+
+.topnav a:hover{
+	border-bottom: 2px solid #4e4e4e;
+	font-size: 18px;
+	color: #a2a2a2;
+}
+
+.topnav .icon{
+	display: none;
+}
+
+.mw-100{
+	max-width: 100%;
+
+}
+
+.zaglav_photo{
+	height: 834px;
+	background: #000;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.zaglav{
+	padding: 5px;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+.what{
+	text-align: center;
+	font-family: 'Source Code Pro', sans-serif;
+	font-size: 15px;
+	padding: 10px;
+}
+
+.advantages_container{
+	display: flex;
+	justify-content: center;
+}
+
+.advantages{
+	padding: 10px;
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	flex-wrap: wrap;	
+}
+
+
+
+
+.advantages_img{
+	height: 200px;
+	padding: 10px;
+}
+
+footer{
+	width: 100%
+	height:auto;
+	background: #000;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 25px;
+	
+}
+
+footer a{
+	color: #fff;
+	font-size: 14px;
+	margin-left: 10px;
+	margin-bottom: 4px;
+}
+
+footer nav a:hover{
+	border-bottom: 1px solid white;
+}
+
+
+
+.social img{
+	margin-left: 40px;
+	margin-bottom: 10px;
+}
+
+.social img:hover{
+	border-bottom: 1px solid white; 
+}
+
+footer .social img{
+	height: 40px;
+}
+
+footer p{
+	color: white;
+	font-size: 17px;
+}
+.news-container{
+	background: #fafafa;
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,0.2) 0 4px 2px -2px;
+	font-weight: 100;
+	margin: 48px auto;
+	width: 50rem;
+}
+
+.news-container a:hover{
+	border-color: #ff4d4d;
+	color: #ff4d4d
+}
+
+.news-cover{
+	background: url(../img/news/test.jpg);
+	background-size: cover;
+	border-radius: 5px 5px 0 0;
+	height: 25rem;
+	box-shadow:  
+}
+
+.news-body{
+	margin: 0 auto;
+	width: 80%;
+}
+
+.news-title h1 a{
+	color: #333;
+	font-weight: 100;
+}
+
+.news-text p{
+		color: 	#4d4d4d;
+}
+
+.news-tags ul{
+	display: 	flex;
+	flex-direction: 	row;
+	flex-wrap: 	wrap;	
+	list-style: 	none;	
+	padding-left: 	0;
+
+}
+
+.news-tags li + li{
+	margin-left: 	.5rem;	
+}
+
+.news-tags a{
+	border: 1px solid	#999999;
+	border-radius: 	3px;
+	color: 	#999999;
+	font-size: 	.75rem;
+	height: 	1.5rem;
+	line-height: 	1.5rem;
+	letter-spacing: 	1px;
+	padding: 	0 .5rem;
+	text-align: 	center;	
+	text-transform: 	uppercase;	
+	white-space: 	nowrap;	
+	width: 	5rem;
+}
+
+.news-footer{
+	border-top: 	1px solid #e6e6e6;
+	margin: 0 auto;
+	padding-bottom: 	.125rem;
+	width: 	80%; 	
+}
+
+.news-footer ul{
+	list-style: 	none;	
+	display: 	flex;	
+	flex: row wrap;
+	justify-content: 	flex-end;	
+	padding-left: 	0px;
+}
+
+
+.news-footer li{
+	color: 	#999999;
+	font-size: 	.75rem;
+	height: 	1.5rem;
+	text-align: 	center;
+	text-transform: uppercase;	
+	position: 	relative;
+	white-space: 	nowrap;	
+
+
+}
+
+.published-day{
+	border: 1px solid #999999;
+	border-radius: 	3px;
+	padding: 	0 0.5rem;
+}
+
+
+.form{
+	width: 50%;
+	margin: 50px auto;
+}
+
+.feedback-input{
+	color: #000;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 22px;
+	background: #FFF;
+	padding: 13px;
+	margin-bottom: 10px;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 0px solid transparent;
+	border-bottom: 1px solid #000;
+}
+
+textarea{
+	width: 100%;
+	height: 150px;
+	resize: vertical;
+}
+
+.batton-submit{
+	float: left;
+	width: 100%;
+	border: 0px solid transparent;
+	cursor: pointer;
+	background: #000;
+	color: #fff;
+	font-size: 18px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	margin-bottom: 10px;
+	transition: all 0.3s;
+	margin-top: -4px;
+	font-weight: 300;
+
+}
+
+.batton-submit: hover{
+	background: #fff;
+	color: #000;
+	border: 1px solid #000;
+}
+
+.ease{
+	width: 0;
+	height: 74px;
+	background: #fbfbfb;
+	transition:  .3s ease;
+}
+
+
+
+.st-container{
+	background: #fafafa;
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,0.2) 0 4px 2px -2px;
+	font-weight: 100;
+	margin: 48px auto;
+	width: 60rem;
+}
+
+.steam-body{
+	
+	margin: 0 auto;
+	width: 80%;
+}
+
+
+.st-tags a{
+	opacity: 0.5;
+	color: #000;
+	border: 1px solid #000;
+	border-radius: 	3px;
+}
+
+
+.st-tags a:hover{
+	opacity: 0.9;
+	color: #FF4500;
+	border-color: #FF4500;
+}
+
+.textab {
+margin-top: 40px;
+float: right;
+padding: 40px; 
+margin-right:  10px;
+
+
+}
+
+.me{
+text-align: center;
+box-shadow: 0 8px 6px -6px black;
+
+}
+
+.hui{
+width: 450px;
+box-shadow: rgba(0,0,0,0.2) 0 4px 2px -2px;
+padding: 10px;
+}
+.textab p{
+	margin-top: 20px;
+	box-shadow: rgba(0,0,0,0.2) 0 4px 2px -2px;
+}
+.textab h3{
+	margin-top: 20px;
+	float: right;
+}
+
+.photo-prl{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.photo_l{
+	padding: 10px;
+	width: 3%;
+	margin-left: 10px;
+}
+
+#map{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.loc h1 a{
+	display: flex;
+	justify-content: center;
+	color: #000;
+}
+
+.loc h1 a:hover{
+	display: flex;
+	justify-content: center;
+	color: #FF4500;
+}
+
+.reg{
+	position: absolute;
+	float: right;
+	margin-left: 500px;
+	color: #fff;
+	padding: 2px;
+	border: 1px solid #fff;
+
+}
+
+.login{
+	position: absolute;
+	float: right;
+	margin-left: 600px;
+	color: #fff;
+	padding: 2px;
+	border: 1px solid #fff;
+}
+
+.reg:hover{
+	color: #ff2400;
+	border-color: #ff2400; 
+}
+
+.login:hover{
+	color: #ff2400;
+	border-color: #ff2400; 
+}
+
+
+
+
+@media screen and (max-width: 768px){
+	.topnav a:not(:first-child){
+		display: none;
+	}
+
+	.topnav a.icon{
+		float: right;
+		margin-top: -17px;
+		display: block;
+		color: black;
+	}
+
+
+	nav{
+		width: 100%;
+		height: 100px;
+	}
+
+	.topnav.responsive a.icon{
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.topnav.responsive a{
+		float: none;
+		display: block;
+		text-align: left;
+	}
+
+	.news-container{
+		width: 	20rem;
+	}
+	
+}
+
