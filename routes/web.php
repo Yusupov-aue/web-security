@@ -13,44 +13,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/about','ApiController@indexAction');
 
+Route::get('/geo','ApiController@geoAction');
 
-Route::get('/index', function () {
-    return view('index');
-});
+Route::get('/about','ApiController@aboutAction');
 
-Route::get('/news', function () {
-    return view('news');
-});
+Route::get('/articles','ApiController@articlesAction');
 
-Route::get('/articles', function () {
-    return view('articles');
-});
+Route::get('/confirm','ApiController@confirmAction');
 
-Route::get('/about', function () {
-    return view('about');
-});
+Route::get('/login','ApiController@loginAction');
 
-Route::get('/question', function () {
-    return view('question');
-});
+Route::get('/news','ApiController@newsAction');
 
-Route::get('/geo', function () {
-    return view('geo');
-});
+Route::get('/question','ApiController@questionAction');
 
-Route::get('/confirm', function () {
-    return view('confirm');
-});
+Route::get('/reg','ApiController@regAction');
 
-Route::get('/reg', function () {
-    return view('reg');
-});
+Route::get('/welcome','ApiController@welcomeAction');
 
-
-Route::get('/login', function () {
-    return view('login');
-});
+Route::get('/index','ApiController@indexAction');

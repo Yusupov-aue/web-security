@@ -15,7 +15,7 @@
 		<div class="logo">
 			<a class="reg" href="http://127.0.0.1:8000/reg">Регистрация</a>
 			<a class="login" href="http://127.0.0.1:8000/login">Вход</a>
-			<a href="index.html"><img class="graficlogo" src="img/logo.png" alt="logo"></a>
+			<a href="http://127.0.0.1:8000/index"><img class="graficlogo" src="img/logo.png" alt="logo"></a>
 
 		</div>
 
