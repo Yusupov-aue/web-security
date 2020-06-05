@@ -34,3 +34,5 @@ Route::get('/reg','ApiController@regAction');
 Route::get('/welcome','ApiController@welcomeAction');
 
 Route::get('/index','ApiController@indexAction');
+
+Route::get('/getArticle','ApiController@getArticles');

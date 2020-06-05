@@ -56,4 +56,10 @@ class ApiController extends Controller
   return view('welcome');
   }
 
+  public function getArticles(Request $request)
+  {
+  return (new ArticleController())->show();
+  }
+
+
 }
