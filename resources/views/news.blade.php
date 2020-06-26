@@ -1,5 +1,15 @@
 @section('content')
 @extends('layouts.header')
+
+<!-- поиск -->
+<!-- <form method="get" action="/search" id="search_field">
+
+	<input type="search" name="search_field" placeholder="Поиск"/>
+	<input type="submit" class="btn" value="Найти">
+
+</form> -->
+
+@foreach($now as $nows)
 <main>
 	<div class="news-container">
 		<div class="news-header">
@@ -9,10 +19,10 @@
 		</div>
 			<div class="news-body">
 				<div class="news-title">
-					<h1><a href="#">Какие новости на данный момоент?</a></h1>
+					<h1><a href="#">{{$nows->title}}</a></h1>
 				</div>
 				<div class="news-text">
-					<p>Добавлены новые разделы, а также footer блоки в скором времени будут доступны ваши локации, а также будут добавлены Статьи -один из самых ожидаемых блоков данного it-блога, это пример новостей данного сайта. Прошу относится к себе и ко мне серьёзно. Данный сайт пишется очень сложно, до связи.</p>
+					<p>{{$nows->description}}</p>
 				</div>
 				<div class="news-tags">
 					<ul>
@@ -25,10 +35,11 @@
 			</div>
 			<div class="news-footer">
 				<ul>
-					<li class="published-day">день публикации 09.04.2020</li>
+					<li class="published-day">день публикации {{$nows->created_at}}</li>
 				</ul>
 			</div>
 	</div>
 
 </main>
+@endforeach
 @endsection('content')

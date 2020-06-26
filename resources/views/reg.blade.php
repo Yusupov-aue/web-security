@@ -9,32 +9,28 @@
   </head>
 
   <body>
-
+<form method="get" action="/registration" id="registration">
       <div class="login-box">
         <h1>Регистрация</h1>
 
         <div class="textbox">
           <i class="fas fa-user"></i>
-          <input type="text" placeholder="Введите логин">
+          <input type="text" name="login" placeholder="Введите логин">
         </div>
 
         <div class="textbox">
           <i class="fas fa-lock"></i>
-          <input type="password" placeholder="Введите пароль">
+          <input type="password" name="password" placeholder="Введите пароль">
         </div>
 
-        <div class="textbox">
-          <i class="fas fa-user-lock"></i>
-          <input type="password" placeholder="Повторите пароль">
-        </div>
 
         <div class="textbox">
           <i class="fas fa-envelope-square"></i>
-          <input type="password" placeholder="Введите почту">
+          <input type="text" name="email_address" placeholder="Введите почту">
         </div>
 
 
-        <input type="button" class="btn" value="Зарегистрироваться">
+        <input type="submit" class="btn" value="Зарегистрироваться">
 
         <div class="retu">
           <i class="fas fa-house-damage"></i>
@@ -42,6 +38,6 @@
         </div>
 
       </div>
-
+</form>
   </body>
 </html>

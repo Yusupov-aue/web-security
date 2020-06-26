@@ -104,7 +104,7 @@ body{
 }
 
 .retu a{
- 
+
 	color: #6e6e6e;
 }
 
@@ -122,7 +122,7 @@ body{
   width: 26px;
   float: right;
   text-align: center;
-  
+
 }
 
 .foget a{
@@ -137,5 +137,13 @@ body{
 }
 
 .foget a:hover {
+  color: #ff2400;
+}
+
+.textbox a{
+  color: #fff;
+}
+
+.textbox a:hover {
   color: #ff2400;
 }

@@ -13,6 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/auth','AuthController@auth');
+Route::middleware('auth')->group(function(){
+Route::get('/logout','AuthController@logout');
+});
+
+
+
+/*главные страниццы*/
+Route::get('/search','ApiController@search');
+
 Route::get('/about','ApiController@indexAction');
 
 Route::get('/geo','ApiController@geoAction');
@@ -29,7 +39,10 @@ Route::get('/news','ApiController@newsAction');
 
 Route::get('/question','ApiController@questionAction');
 
+
 Route::get('/reg','ApiController@regAction');
+Route::get('/registration','AuthController@reg');
+
 
 Route::get('/welcome','ApiController@welcomeAction');
 

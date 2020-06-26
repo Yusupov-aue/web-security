@@ -23,7 +23,7 @@ class ApiController extends Controller
 
   public function articlesAction(Request $request)
   {
-  return view('articles');
+  return view('articles', ['article'=> (new ArticleController())->show()]);
   }
 
   public function confirmAction(Request $request)
@@ -38,7 +38,7 @@ class ApiController extends Controller
 
   public function newsAction(Request $request)
   {
-  return view('news');
+  return view('news', ['now'=> (new nowostController())->show()]);
   }
 
   public function questionAction(Request $request)
@@ -61,5 +61,29 @@ class ApiController extends Controller
   return (new ArticleController())->show();
   }
 
+
+
+  public function search(Request $request)
+  {
+
+  $articles = (new ArticleController())->search($request->search_field);
+  if (is_null($articles)){
+    return 'Не найдено';
+  }
+    return view('articles', ['article'=> $articles]);
+  }
+
+
+
+//поиск в новостях
+  // public function search2(Request $request)
+  // {
+  //
+  // $nowosts = (new nowostController())->search2($request->search_field);
+  // if (is_null($nowosts)){
+  //   return 'Не найдено';
+  // }
+  //   return view('news', ['now'=> $nowosts]);
+  // }
 
 }

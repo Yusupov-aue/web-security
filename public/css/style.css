@@ -40,14 +40,14 @@ nav{
 	background-color: #fff;
 	font-size: 14px;
 	margin-top: 40px;
-	margin-bottom: 20px; 
+	margin-bottom: 20px;
 }
 
 .topnav a{
 	color: #000;
 	text-align: center;
 	padding: 14px 16px;
-	font-size: 15px; 
+	font-size: 15px;
 
 }
 
@@ -98,7 +98,7 @@ nav{
 	display: flex;
 	justify-content: space-between;
 	text-align: center;
-	flex-wrap: wrap;	
+	flex-wrap: wrap;
 }
 
 
@@ -116,7 +116,7 @@ footer{
 	margin: 0 auto;
 	text-align: center;
 	padding-top: 25px;
-	
+
 }
 
 footer a{
@@ -138,7 +138,7 @@ footer nav a:hover{
 }
 
 .social img:hover{
-	border-bottom: 1px solid white; 
+	border-bottom: 1px solid white;
 }
 
 footer .social img{
@@ -168,7 +168,7 @@ footer p{
 	background-size: cover;
 	border-radius: 5px 5px 0 0;
 	height: 25rem;
-	box-shadow:  
+	box-shadow:
 }
 
 .news-body{
@@ -188,14 +188,14 @@ footer p{
 .news-tags ul{
 	display: 	flex;
 	flex-direction: 	row;
-	flex-wrap: 	wrap;	
-	list-style: 	none;	
+	flex-wrap: 	wrap;
+	list-style: 	none;
 	padding-left: 	0;
 
 }
 
 .news-tags li + li{
-	margin-left: 	.5rem;	
+	margin-left: 	.5rem;
 }
 
 .news-tags a{
@@ -207,9 +207,9 @@ footer p{
 	line-height: 	1.5rem;
 	letter-spacing: 	1px;
 	padding: 	0 .5rem;
-	text-align: 	center;	
-	text-transform: 	uppercase;	
-	white-space: 	nowrap;	
+	text-align: 	center;
+	text-transform: 	uppercase;
+	white-space: 	nowrap;
 	width: 	5rem;
 }
 
@@ -217,14 +217,14 @@ footer p{
 	border-top: 	1px solid #e6e6e6;
 	margin: 0 auto;
 	padding-bottom: 	.125rem;
-	width: 	80%; 	
+	width: 	80%;
 }
 
 .news-footer ul{
-	list-style: 	none;	
-	display: 	flex;	
+	list-style: 	none;
+	display: 	flex;
 	flex: row wrap;
-	justify-content: 	flex-end;	
+	justify-content: 	flex-end;
 	padding-left: 	0px;
 }
 
@@ -234,9 +234,9 @@ footer p{
 	font-size: 	.75rem;
 	height: 	1.5rem;
 	text-align: 	center;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 	position: 	relative;
-	white-space: 	nowrap;	
+	white-space: 	nowrap;
 
 
 }
@@ -317,7 +317,7 @@ textarea{
 }
 
 .steam-body{
-	
+
 	margin: 0 auto;
 	width: 80%;
 }
@@ -340,7 +340,7 @@ textarea{
 .textab {
 margin-top: 40px;
 float: right;
-padding: 40px; 
+padding: 40px;
 margin-right:  10px;
 
 
@@ -417,13 +417,25 @@ padding: 10px;
 
 .reg:hover{
 	color: #ff2400;
-	border-color: #ff2400; 
+	border-color: #ff2400;
 }
 
 .login:hover{
 	color: #ff2400;
-	border-color: #ff2400; 
+	border-color: #ff2400;
 }
+
+.poisk{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+#button:hover{
+background-color:  #ff2400;
+}
+
 
 
 
@@ -461,6 +473,5 @@ padding: 10px;
 	.news-container{
 		width: 	20rem;
 	}
-	
-}
 
+}
